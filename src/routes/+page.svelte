@@ -23,7 +23,7 @@
                 <div class="menu">
                     <i id="btn" class='bx bx-menu'></i>
                 </div>
-                <a href="/index.html">
+                <a href="/">
                     <div class="sidebar-home">
                             <i class='bx bxs-home'></i>
                             <span>Home</span>
