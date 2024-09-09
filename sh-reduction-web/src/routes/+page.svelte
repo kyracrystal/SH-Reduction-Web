@@ -3,7 +3,7 @@
 </script>
 
 <!DOCTYPE html>
-<html lang="en"> <!-- >:3c -->
+<html lang="en"> <!-- >:3 -->
     <head>
         <title>Self-Harm Reduction</title>
         <meta charset="UTF-8">
