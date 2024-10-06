@@ -1,22 +1,6 @@
 <script lang="ts">
     import '/src/global.css';
     import { onMount } from 'svelte';
-    import { createDocsIndex, searchDocsIndex } from '$lib/search';
-    import * as DropdownMenu from "$lib/components/ui/dropdown-menu";
-
-    let search: 'loading' | 'ready' = 'loading';
-    let searchTerm = 'imagine';
-    let results = [];
-
-    onMount(async () => {
-        const docs = await fetch('/search.json').then(res => res.json());
-        createDocsIndex(docs);
-        search = 'ready';
-    });
-
-    $: if (search === 'ready') {
-        results = searchDocsIndex(searchTerm);
-    }
 </script>
 
 <!DOCTYPE html>
@@ -146,10 +130,11 @@
             // Sidebar Toggle
             let btn = document.querySelector('#btn');
             let sidebar = document.querySelector('.sidebar')
-
+        
             btn.onclick = function () {
                 sidebar.classList.toggle('active')
             };
+            sidebar.classList.toggle('active')
         </script>
     </footer>
 </html>
