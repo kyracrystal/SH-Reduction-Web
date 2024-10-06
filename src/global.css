@@ -1,5 +1,8 @@
 /* Imports */
 @import url(https://fonts.bunny.net/css?family=almarai:300,400,700,800);
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 /* Root & Main */
 :root {
@@ -145,12 +148,11 @@ body {
     display: flex;
     text-decoration: none;
     align-items: center;
-    
+    overflow-y: scroll;
 }
 
 .sidebar ul li a:hover {
     background-color: var(--grey);
-    overflow-y: scroll;
 }
 
 .sidebar ul li a i {

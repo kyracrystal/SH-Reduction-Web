@@ -1,0 +1,62 @@
+[
+    {
+        "id": "general-information",
+        "title": "General Information",
+        "content": "N/A"
+    },
+    {
+        "id": "emergency-help",
+        "title": "Emergency Help",
+        "content": "N/A"
+    },
+    {
+        "id": "community-discord",
+        "title": "Community Discord",
+        "content": "External Link to the Community Discord"
+    },
+    {
+        "id": "contact-us",
+        "title": "Contact Us",
+        "content": "N/A"
+    },
+    {
+        "id": "harm-reduction-info",
+        "title": "Harm Reduction Info",
+        "content": "N/A"
+    },
+    {
+        "id": "general-cutting-info",
+        "title": "General Cutting Info",
+        "content": "N/A"
+    },
+    {
+        "id": "common-questions",
+        "title": "Common Questions",
+        "content": "N/A"
+    },
+    {
+        "id": "repository",
+        "title": "Repository",
+        "content": "External Link to Github Repository"
+    },
+    {
+        "id": "archive-downloads",
+        "title": "Archive Downloads",
+        "content": "External Link for Archive Downloads"
+    },
+    {
+        "id": "QR-Code-Links",
+        "title": "QR Code // Links",
+        "content": "N/A"
+    },
+    {
+        "id": "settings",
+        "title": "Settings",
+        "content": "N/A"
+    },
+    {
+        "id": "credits",
+        "title": "Credits",
+        "content": "N/A"
+    }
+]

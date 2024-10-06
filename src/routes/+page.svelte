@@ -1,5 +1,22 @@
-<script>
+<script lang="ts">
     import '/src/global.css';
+    import { onMount } from 'svelte';
+    import { createDocsIndex, searchDocsIndex } from '$lib/search';
+    import * as DropdownMenu from "$lib/components/ui/dropdown-menu";
+
+    let search: 'loading' | 'ready' = 'loading';
+    let searchTerm = 'imagine';
+    let results = [];
+
+    onMount(async () => {
+        const docs = await fetch('/search.json').then(res => res.json());
+        createDocsIndex(docs);
+        search = 'ready';
+    });
+
+    $: if (search === 'ready') {
+        results = searchDocsIndex(searchTerm);
+    }
 </script>
 
 <!DOCTYPE html>
@@ -16,7 +33,6 @@
         <header class="nav-header">
             <div class="logo">
                 <span>Self-Harm Reduction</span>
-            </div>
         </header>
         <div class="sidebar">
             <div class="sidebar-top">
@@ -123,7 +139,19 @@
             </div>
         </div>
         <div class="contents">
-
+            <DropdownMenu.Root>
+                <DropdownMenu.Trigger>Open</DropdownMenu.Trigger>
+                <DropdownMenu.Content>
+                  <DropdownMenu.Group>
+                    <DropdownMenu.Label>My Account</DropdownMenu.Label>
+                    <DropdownMenu.Separator />
+                    <DropdownMenu.Item>Profile</DropdownMenu.Item>
+                    <DropdownMenu.Item>Billing</DropdownMenu.Item>
+                    <DropdownMenu.Item>Team</DropdownMenu.Item>
+                    <DropdownMenu.Item>Subscription</DropdownMenu.Item>
+                  </DropdownMenu.Group>
+                </DropdownMenu.Content>
+              </DropdownMenu.Root>
         </div>
     </body>
     <footer>
