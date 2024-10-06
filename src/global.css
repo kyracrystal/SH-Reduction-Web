@@ -193,11 +193,11 @@ body {
     display: flex;
     top: 64px;
     left: 0;
-    height: calc(100% - 64px);
+    height: 50px;
     width: calc(114px + 51px);
-    background-color: transparent;
+    background: none;
     border: hidden;
-    z-index: 0;
+    z-index: 2;
     color: var(--white);
     .scrollbox {
         display: none;
@@ -209,15 +209,12 @@ body {
 		border-bottom-right-radius: 15px;
         border-bottom: solid 2px #40454C;
         border-right: solid 2px #40454C;
-        z-index: 2;
     }
     .sidebar-home {
         border-bottom: solid 2px #40454C;
-        z-index: 2;
     }
     .sidebar-top {
         border-bottom: hidden;
-        z-index: 2;
     }
 }
 
