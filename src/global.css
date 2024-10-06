@@ -224,10 +224,10 @@ body {
 .scrollbox {
     overflow: scroll;
     z-index: 2;
-    visibility: hidden;
+    visibility: visible;
 }
 
-.scrollbox-inner, .scrollbox:hover {
+.scrollbox-inner {
     z-index: 2;
     overflow-x: hidden;
     overflow-y: scroll;
