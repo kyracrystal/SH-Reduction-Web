@@ -139,7 +139,7 @@ body {
     border-right: solid 2px #40454C;
     background-color: var(--blue-grey);
     color: var(--white);
-    transition: all .35s ease;
+    transition: all .25s ease;
 }
 
 .sidebar ul li {
