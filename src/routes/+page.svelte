@@ -111,21 +111,17 @@
             </div>
         </div>
         <div class="contents">
-            <p>
-                
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ornare justo. Integer tristique tincidunt pharetra. Duis mattis sed nisl eu elementum. Sed velit velit, lacinia eget lacus vel, eleifend cursus magna. Sed tincidunt facilisis vehicula. Morbi tristique eget dolor ac sagittis. Vestibulum pharetra sapien ligula.
-
-Etiam dictum nibh ac congue finibus. Mauris id felis dictum, gravida dolor id, consequat lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec purus ipsum, egestas non ullamcorper ut, rhoncus sit amet lectus. Phasellus libero ante, lacinia id varius ac, tristique eget odio. Praesent consectetur bibendum eros et egestas. Integer enim neque, posuere nec pretium eget, aliquet sed enim.
-
-Pellentesque orci sapien, scelerisque nec ex sit amet, suscipit congue erat. Nullam id mauris at dui sagittis pharetra in vel orci. Proin et scelerisque enim. Nulla lobortis, sapien nec efficitur varius, augue ligula bibendum elit, et feugiat justo neque eu massa. Curabitur vestibulum rhoncus nunc molestie molestie. Aliquam porta sem a mauris viverra eleifend. Sed mollis semper lectus non efficitur. Integer porta lacinia dui. Donec nulla dui, maximus viverra aliquam a, viverra at nunc. Sed condimentum posuere dui id luctus. Phasellus imperdiet dui eros, sed suscipit sapien vulputate sed. Nulla a justo ac magna maximus tincidunt. Duis dignissim lacus at volutpat eleifend. Maecenas nec rutrum ex. Etiam eget elit sed turpis pretium mollis.
-
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris sed magna dui. Sed ultricies pharetra nunc id pulvinar. Proin luctus pellentesque nibh, ut varius tellus. Etiam at tristique dolor. Mauris tempus tincidunt lacus nec lobortis. Aenean condimentum fermentum erat nec placerat. Ut ipsum nisl, egestas non consequat eget, vestibulum in lectus. Pellentesque ac nisi pulvinar, cursus velit sit amet, lobortis libero. Vivamus facilisis tincidunt tortor, quis convallis odio accumsan vitae. Quisque tempus erat quam, eu finibus metus fermentum sollicitudin. Donec vestibulum elit sed nulla malesuada semper. Proin aliquam vulputate accumsan. Curabitur consequat eget felis eget bibendum. Aenean faucibus finibus efficitur.
-
-Donec mattis sodales leo vitae rutrum. Praesent vulputate vel sapien ut sagittis. Nunc elementum, ex pulvinar congue elementum, enim libero malesuada ex, ac porttitor est ex eu diam. Donec laoreet porttitor auctor. Sed vel congue lorem. Sed eget ultricies neque. Nunc mattis pharetra ex vel dictum. Nulla nec nisl lectus. Fusce at placerat augue, non ultrices sem. Nullam fermentum, metus vel vehicula volutpat, turpis leo tristique mauris, nec sollicitudin est enim quis nisi. Sed justo dui, facilisis vitae vestibulum sagittis, tincidunt a nulla. Vivamus vel odio orci. Praesent sed elit et dolor vulputate aliquam a at ante. Nam consequat lorem ex, at malesuada metus tincidunt quis. Proin iaculis nisi nec lorem dapibus dapibus. 
-Donec mattis sodales leo vitae rutrum. Praesent vulputate vel sapien ut sagittis. Nunc elementum, ex pulvinar congue elementum, enim libero malesuada ex, ac porttitor est ex eu diam. Donec laoreet porttitor auctor. Sed vel congue lorem. Sed eget ultricies neque. Nunc mattis pharetra ex vel dictum. Nulla nec nisl lectus. Fusce at placerat augue, non ultrices sem. Nullam fermentum, metus vel vehicula volutpat, turpis leo tristique mauris, nec sollicitudin est enim quis nisi. Sed justo dui, facilisis vitae vestibulum sagittis, tincidunt a nulla. Vivamus vel odio orci. Praesent sed elit et dolor vulputate aliquam a at ante. Nam consequat lorem ex, at malesuada metus tincidunt quis. Proin iaculis nisi nec lorem dapibus dapibus. 
-
-            </p>
+            <div class="contents-info">
+                <h1>IMPORTANT</h1>
+                <p>
+                    This website is a resource for those who self-harm, and those who want to help them. 
+                    It is a collection of information, resources, and tools to help those who self-harm reduce the harm they do to themselves.
+                </p>
+                <p>
+                    This website is not a substitute for professional help. If you are in immediate danger, please call emergency services.
+                </p>
+            </div>
+            
         </div>
     </body>
     <footer>
