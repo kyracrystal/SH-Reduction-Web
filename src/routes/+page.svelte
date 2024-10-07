@@ -112,16 +112,18 @@
         </div>
         <div class="contents">
             <div class="contents-info">
-                <h1>IMPORTANT</h1>
-                <br>
-                <p>
-                    This website is a resource for those who self-harm, and those who want to help them. 
-                    It is a collection of information, resources, and tools to help those who self-harm reduce the harm they do to themselves.
-                </p>
-                <br>
-                <p>
-                    This website is not a substitute for professional help. If you are in immediate danger, please call emergency services.
-                </p>
+                <strong>
+                    <h1 style="font-size: 1.5rem;">
+                        NOTICE
+                    </h1>
+                    <p>
+                        This website is a resource for those who self-harm, and those who want to help them. 
+                        It is a collection of information, resources, and tools to help those who self-harm reduce the harm they do to themselves.
+                    </p>
+                    <p>
+                        This website is not a substitute for professional help. If you are in immediate danger, please call emergency services.
+                    </p>
+                </strong>
             </div>
             
         </div>
