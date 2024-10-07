@@ -262,7 +262,7 @@ body {
     width: calc(100% - 20px);
     height: calc(100% - 110px);
     padding: 8px;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--white);
     border-radius: 15px;
 }
@@ -274,12 +274,13 @@ body {
     top: 118px;
     left: 10px;
     right: 20px;
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 8px;
     color: var(--white);
     background-color: var(--dark-red);
     border: dashed 2px var(--maroon);
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
 }
