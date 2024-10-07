@@ -116,6 +116,7 @@
                     <h1 style="font-size: 1.5rem;">
                         NOTICE
                     </h1>
+                    <br>
                     <p>
                         This website is a resource for those who self-harm, and those who want to help them. 
                         It is a collection of information, resources, and tools to help those who self-harm reduce the harm they do to themselves.
