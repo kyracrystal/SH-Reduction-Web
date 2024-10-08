@@ -1,5 +1,5 @@
 <h1>The Short Story</h1>
-<h3>[SHReduction](https://keegballz.github.io) is a resource for people who cut themselves to learn ways to reduce the harm cutting causes. There’s not enough people taking an approach to self harm that’s actually effective. This website exists to help change that.</h3>
+<h3>SH-Reduction is a resource for people who cut themselves to learn ways to reduce the harm cutting causes. There’s not enough people taking an approach to self harm that’s actually effective. This website exists to help change that.</h3>
 
 <h1>The Long Story</h1>
 Self-harm is in this weird category of its own where people who can understand that dependence on bad habits takes time to ease out of can’t see cutting the same way. 
