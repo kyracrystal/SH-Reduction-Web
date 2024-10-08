@@ -14,95 +14,95 @@
         <!-- <script src="/scripts/mobileDetect.js" defer></script> -->
     </head>
     <body> 
-        <header class="nav-header">
-            <div class="logo">
+        <header class="navigation-header">
+            <div class="navigation-header-logo">
                 <span>Self-Harm Reduction</span>
         </header>
-        <div class="sidebar">
-            <div class="sidebar-top">
-                <div class="menu">
-                    <i id="btn" class='bx bx-menu'></i>
+        <div class="navigation-bar">
+            <div class="navigation-bar-priority">
+                <div class="navigation-bar-menu">
+                    <i id="menu-btn" class='bx bx-menu'></i>
                 </div>
                 <a href="/">
-                    <div class="sidebar-home">
-                            <i class='bx bxs-home'></i>
-                            <span>Home</span>
+                    <div class="navigation-bar-home">
+                        <i class='bx bxs-home'></i>
+                        <span>Home</span>
                     </div>
                 </a>
             </div>
             <div class="scrollbox">
                 <div class="scrollbox-inner">
-                    <div class="sidebar-important">
+                    <div class="navigation-bar-section-important-tabs">
                         <ul>
-                            <li class="sidebar-general-information">
+                            <li>
                                 <a href="/">
                                     <i class='bx bxs-book-alt'></i>
-                                    <span class="nav-item">General Information</span>
+                                    <span class="navigation-bar-item">General Information</span>
                                 </a>
                             </li>
-                            <li class="sidebar-emergency">
+                            <li>
                                 <a href="/">
                                     <i class='bx bxs-phone'></i>
-                                    <span class="nav-item">Emergency Help</span>
+                                    <span class="navigation-bar-item">Emergency Help</span>
                                 </a>
                             </li>
-                            <li class="sidebar-community">
+                            <li>
                                 <a href="https://discord.gg/hR7VZdXF4e" target="_blank">
                                     <i class='bx bxl-discord-alt'></i>
-                                    <span class="nav-item" style="width: 100%;">Community Discord</span>
+                                    <span class="navigation-bar-item">Community Discord</span>
                                     <i class='bx bx-link-external'></i>
                                 </a>
                             </li>
-                            <li class="sidebar-contact">
+                            <li>
                                 <a href="/">
                                     <i class='bx bxs-contact'></i>
-                                    <span class="nav-item">Contact Us</span>
+                                    <span class="navigation-bar-item">Contact Us</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="sidebar-information">
+                    <div class="navigation-bar-section-information-tabs">
                         <ul>
-                            <li class="sidebar-harm-reduction-info">
+                            <li>
                                 <a href="/">
                                     <i class='bx bxs-info-circle'></i>
-                                    <span class="nav-item">Harm Reduction Info</span>
+                                    <span class="navigation-bar-item">Harm Reduction Info</span>
                                 </a>
                             </li>
-                            <li class="sidebar-general-cutting-info">
+                            <li>
                                 <a href="/">
                                     <i class='bx bxs-info-circle'></i>
-                                    <span class="nav-item">General Cutting Info</span>
+                                    <span class="navigation-bar-item">General Cutting Info</span>
                                 </a>
                             </li>
-                            <li class="sidebar-common-questions">
+                            <li>
                                 <a href="/">
                                     <i class='bx bxs-chat'></i>
-                                    <span class="nav-item">Common Questions</span>
+                                    <span class="navigation-bar-item">Common Questions</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="sidebar-end">
+                    <div class="navigation-bar-section-other-tabs">
                         <ul>
-                            <li class="sidebar-repository">
+                            <li>
                                 <a href="https://github.com/kyracrystal/SH-Reduction-Web" target="_blank">
                                     <i class='bx bx-git-repo-forked'></i>
-                                    <span class="nav-item" style="width: 100%;">Repository</span>
+                                    <span class="navigation-bar-item">Repository</span>
                                     <i class='bx bx-link-external'></i>
                                 </a>
                             </li>
-                            <li class="sidebar-links">
+                            <li>
                                 <a href="/">
                                     <i class='bx bx-qr-scan'></i>
-                                    <span class="nav-item">QR Code // Links</span>
+                                    <span class="navigation-bar-item">QR Code // Links</span>
                                     
                                 </a>
                             </li>
-                            <li class="sidebar-credits" style="border-bottom: solid 1px #40454C;">
+                            <li>
                                 <a href="/">
                                     <i class='bx bxs-group'></i>
-                                    <span class="nav-item">Credits</span>
+                                    <span class="navigation-bar-item">Credits</span>
                                 </a>
                             </li>
                         </ul>
@@ -110,8 +110,8 @@
                 </div>
             </div>
         </div>
-        <div class="contents">
-            <div class="contents-info">
+        <div class="homepage-content">
+            <div class="homepage-content-notice">
                 <strong>
                     <h1 style="font-size: 1.5rem;">
                         NOTICE
@@ -131,8 +131,8 @@
     <footer>
         <script>
             // Sidebar Toggle
-            let btn = document.querySelector('#btn');
-            let sidebar = document.querySelector('.sidebar')
+            let btn = document.querySelector('#menu-btn');
+            let sidebar = document.querySelector('.navigation-bar');
         
             btn.onclick = function () {
                 sidebar.classList.toggle('active')
