@@ -4,14 +4,12 @@
 </script>
 
 <!DOCTYPE html>
-<html lang="en"> <!-- >:3 -->
+<html lang="en"> <!-- >:3c -->
     <head>
-        <title>Self-Harm Reduction</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="/src/global.css">
-        <!-- <script src="/scripts/mobileDetect.js" defer></script> -->
     </head>
     <body> 
         <header class="navigation-header">
@@ -35,13 +33,13 @@
                     <div class="navigation-bar-section-important-tabs">
                         <ul>
                             <li>
-                                <a href="/">
+                                <a href="/important/general-information">
                                     <i class='bx bxs-book-alt'></i>
                                     <span class="navigation-bar-item">General Information</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="/important/emergency-help">
                                     <i class='bx bxs-phone'></i>
                                     <span class="navigation-bar-item">Emergency Help</span>
                                 </a>
@@ -54,29 +52,29 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="/important/contact-us">
                                     <i class='bx bxs-contact'></i>
                                     <span class="navigation-bar-item">Contact Us</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="navigation-bar-section-information-tabs">
+                    <div class="navigation-bar-section-docs-tabs">
                         <ul>
                             <li>
-                                <a href="/">
+                                <a href="/docs/harm-reduction-info">
                                     <i class='bx bxs-info-circle'></i>
                                     <span class="navigation-bar-item">Harm Reduction Info</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="/docs/general-cutting-info">
                                     <i class='bx bxs-info-circle'></i>
                                     <span class="navigation-bar-item">General Cutting Info</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="/docs/harm-reduction-info">
                                     <i class='bx bxs-chat'></i>
                                     <span class="navigation-bar-item">Common Questions</span>
                                 </a>
@@ -93,14 +91,14 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="/important/links">
                                     <i class='bx bx-qr-scan'></i>
                                     <span class="navigation-bar-item">QR Code // Links</span>
                                     
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="/important/credits">
                                     <i class='bx bxs-group'></i>
                                     <span class="navigation-bar-item">Credits</span>
                                 </a>

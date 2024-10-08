@@ -174,7 +174,7 @@ body {
     width: 100%;
 }
 
-.navigation-bar-section-important-tabs, .navigation-bar-section-information-tabs {
+.navigation-bar-section-important-tabs, .navigation-bar-section-docs-tabs {
     border-bottom: solid .5px var(--line-grey);
     border-left: hidden;
     border-right: hidden;
